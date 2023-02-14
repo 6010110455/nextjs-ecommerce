@@ -1,7 +1,7 @@
 import { useEffect, useRef, useContext } from 'react'
 import { patchData } from '../utils/fetchData'
-import {DataContext} from '../store/GlobalState'
-import {updateItem} from '../store/Actions'
+import { DataContext } from '../store/GlobalState'
+import { updateItem } from '../store/Actions'
 
 const paypalBtn = ({order}) => {
     const refPaypalBtn = useRef()
